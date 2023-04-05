@@ -2,12 +2,12 @@ package class8_loop_revision;
 
 public class E11NestedForLoop {
     public static void main(String[] args) {
-        for (int i = 2; i < 5; i++) {
+        /*for (int i = 2; i < 5; i++) {
             for (int k = 0; k < 3; k++) {
                 System.out.print(i + " ");
             }
             System.out.println();
-        }
+        }*/
         System.out.println();
 
         /*

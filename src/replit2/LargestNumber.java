@@ -1,8 +1,8 @@
-package replit;
+package replit2;
 
 import java.util.Scanner;
 
-public class Example {
+public class LargestNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter a number");

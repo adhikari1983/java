@@ -8,7 +8,7 @@ package class8_loop_revision;
 public class E8BreakExample {
     public static void main(String[] args) {
         boolean summer = true;
-        int temperature = 105;
+        int temperature = 85;
 
         while (summer) {
             if (temperature < 100) {
