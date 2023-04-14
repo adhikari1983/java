@@ -1,4 +1,4 @@
-package class2;
+package class2_basics;
 
 public class WholeNumbersDemo {
     public static void main(String[] args) {

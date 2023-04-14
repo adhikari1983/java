@@ -25,8 +25,7 @@ Syntax:
 
     }
 Limitations of the Enhanced for loop:
-    1) There is no index which means we will always get the data in the
-    sequence it is present in the array
+    1) There is no index which means we will always get the data in the sequence it is present in the array
     2) we can't print the items in reverse order.
     3)we can't update the values as well.
 
