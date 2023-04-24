@@ -1,4 +1,4 @@
-package class12.objectintro.dog;
+package class12.objectintro.string.dog;
 
 public class DogTester {
     public static void main(String[] args) {

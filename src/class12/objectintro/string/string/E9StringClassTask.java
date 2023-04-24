@@ -1,4 +1,4 @@
-package class12.objectintro.string;
+package class12.objectintro.string.string;
 
 import java.util.Scanner;
 

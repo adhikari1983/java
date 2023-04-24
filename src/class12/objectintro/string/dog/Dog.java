@@ -1,4 +1,4 @@
-package class12.objectintro.dog;
+package class12.objectintro.string.dog;
 
     // Class is a blueprint or a template that defines the  properties and behaviors objects that belong to it.
 public class Dog {

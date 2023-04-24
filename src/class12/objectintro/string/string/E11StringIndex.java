@@ -1,4 +1,4 @@
-package class12.objectintro.string;
+package class12.objectintro.string.string;
 
 public class E11StringIndex {
     public static void main(String[] args) {

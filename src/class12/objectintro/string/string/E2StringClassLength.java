@@ -1,4 +1,4 @@
-package class12.objectintro.string;
+package class12.objectintro.string.string;
 
 public class E2StringClassLength {
     public static void main(String[] args) {

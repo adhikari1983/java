@@ -1,4 +1,4 @@
-package class12.objectintro.car;
+package class12.objectintro.string.car;
 
 public class Car {
 
