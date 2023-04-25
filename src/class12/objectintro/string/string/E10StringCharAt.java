@@ -5,10 +5,12 @@ public class E10StringCharAt {
         String name = "KIRANR";
 
         System.out.println(name.charAt(4));
+        System.out.println("..................");
 
         for (int i = 0; i < name.length(); i++) {
             System.out.print(name.charAt(i) + " ");
         }
+        System.out.println("\n..................");
 
         //counting how many times the letter R has appeared
         int count = 0;

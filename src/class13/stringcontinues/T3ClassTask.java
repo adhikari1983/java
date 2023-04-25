@@ -12,8 +12,9 @@ public class T3ClassTask {
         String[] splitArray = a.split("[?]");
 
         System.out.println(splitArray.length);
+
         for (String s : splitArray) {
-            System.out.println(s);
+            System.out.println(s.trim()); // trim() to remove space from left and right
         }
     }
 }

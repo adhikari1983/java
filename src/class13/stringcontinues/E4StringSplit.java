@@ -10,8 +10,10 @@ public class E4StringSplit {
 
         //before we iterate the elements of the split array, we can also this
         System.out.println(split.length);
+
         System.out.println(split[0]);
         System.out.println(split[2]);
+
         //to remove the space in the beginning
         System.out.println(split[2].trim());
 

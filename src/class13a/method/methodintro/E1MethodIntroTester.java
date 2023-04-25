@@ -1,8 +1,9 @@
-package class13a.method;
+package class13a.method.methodintro;
 
 public class E1MethodIntroTester {
 
     public static void main(String[] args) {
+        // instead of printing like below, we can use method
 //        System.out.println("Hello Java");
 //        System.out.println("Hello Java");
 //        System.out.println("Hello Java");

@@ -21,9 +21,9 @@ public class E9StringClassTask {
         String confirmPassword = "pass1234";
 /*
     I could have use only the if blocks but that is not efficient coz it has to check condition
-    1 by 1, execution takes long time.
+    1 by 1, execution takes long time. -> only on if blocks
     Let's say even it does match  1 or 2 or 3 (out of 4 condition) and doesn't match 4th if block still
-    the else at the end will print out even if other conditions are not met.
+    the else at the end will print out even if other conditions are not met. -> if blocks
 */
         if (scanName.isBlank() || scanPass.isBlank()) {
             System.out.println("Username or Password cannot be empty");

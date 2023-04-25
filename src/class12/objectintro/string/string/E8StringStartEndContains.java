@@ -8,7 +8,9 @@ public class E8StringStartEndContains {
         String sentence = "Java is very very easy";
 
         System.out.println(sentence.startsWith("Java"));
+
         System.out.println(sentence.contains("Java"));
+
         System.out.println(sentence.endsWith("easy"));
 
         //method channing & it is possible in String class

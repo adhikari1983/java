@@ -1,4 +1,4 @@
-package class13a.method;
+package class13a.method.methodintro;
 
 public class E1MethodIntro {
 

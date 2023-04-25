@@ -19,9 +19,15 @@ public class E2StringPatternReplaceAll {
         System.out.println(str.replaceAll("[a-zA-Z0-9]", "%"));
 
         char c = 'A';
+        char b = 'a';
+        int casted1 = (int)c;
+        System.out.println("casted1 = " + casted1);
+         int casted = (int)b;
+        System.out.println("casted = " + casted);
         c++;
         System.out.println(c);
-        for (int i = 0; i <10; i++) {
+        System.out.println("____________");
+        for (int i = 0; i <25; i++) {
             System.out.print(c++ + " ");
 
         }
