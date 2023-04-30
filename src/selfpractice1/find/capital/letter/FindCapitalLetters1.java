@@ -17,8 +17,9 @@ public class FindCapitalLetters1 {
             if (charToCheck >= 65 && charToCheck <= 90) {  // 65 - 90 -> A-Z
                 upperCase++;
             } else { //if (charToCheck >= 97 && charToCheck <= 122){
-                if(charToCheck != ' '){
-                lowerCase++;}
+                if (charToCheck != ' ') {
+                    lowerCase++;
+                }
             }
         }
         System.out.println("Uppercase letters count is : " + upperCase);

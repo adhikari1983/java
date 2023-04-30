@@ -8,6 +8,7 @@ public class E11StringIndex {
 
         System.out.println(sentence.indexOf('i'));
         // if there is more than one same letter than it gives the -> "Very first one"
+
         System.out.println(sentence.indexOf('a'));
 
         //start searching from index 4
@@ -17,11 +18,11 @@ public class E11StringIndex {
         //print the index number of a
         for (int i = 0; i < sentence.length(); i++) {
             if (sentence.charAt(i) == 'a') {
-                System.out.print(i + " ");                  // i might be confusing coz i tried L19 way
+                System.out.print(i + " ");
                 //System.out.print(sentence.charAt(i) +" ");
             }
         }
-
+        System.out.println("\n...................");
         //To find the positions of all occurrences of the letter 'a' in the given string -> with while loop
         String given = "I love Java classes at Syntax";
         int index = given.indexOf('a');                           // Find the first occurrence of 'a'

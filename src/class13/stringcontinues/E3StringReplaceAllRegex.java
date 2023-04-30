@@ -23,9 +23,10 @@ public class E3StringReplaceAllRegex {
 
         System.out.println(str.replaceAll("", "\\$"));
 
-
-
-
-
+        System.out.println(".......................................");
+        String given="Hello Syntax friends";
+        // method chaining -> multiple steps converted into same line
+        String result = given.replace("Hello", "Welcome").replace("friends", "family");
+        System.out.println(result);
     }
 }

@@ -15,7 +15,7 @@ public class E8StringStartEndContains {
 
         //method channing & it is possible in String class
         //method channing is calling multiple methods on the same line
-        sentence = sentence.trim().toLowerCase();
+        sentence = sentence.toLowerCase().trim();
         System.out.println(sentence.startsWith("java") +  " -> "+" checking with small letter java ");
 
 
