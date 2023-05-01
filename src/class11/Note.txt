@@ -12,8 +12,30 @@ Syntax:
 =======================================================================
 Object oriented programming:
     Object oriented programming also known as OOPs is nothing but some set of rules
-    that if we follow we will have below benefits. There five main concepts that we
-    will be learning 1)classes and objects 2) inheritance 3) polymorphism 4) abstraction 5) Encapsulation
+    that if we follow, we will have below benefits. There five main concepts that we
+    will be learning
+     1)classes and objects
+     2) inheritance
+     3) polymorphism
+     4) abstraction
+     5) Encapsulation
+
+from => slide
+Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects.
+It simplifies the software development and maintenance
+
+chatGpt =>
+OOPs (Object-Oriented Programming) is a programming paradigm that is used to write software using objects
+that interact with each other.
+
+layman =>
+OOPs, ( is a programming paradigm) -> is a way of writing software that involves using objects that interact
+with each other to perform tasks.
+Imagine a car - it's made up of different parts that work together to make it move. OOPs is similar to this
+idea - you have different objects that work together to perform tasks in a software program.
+
+
+Benefits of OOPs
     1) code will be organized
     2) Code repetition will be minimized.
     3) changing the code will become easier.
@@ -21,8 +43,6 @@ Object oriented programming:
     5) security of your application will increase.
     6) writing code for larger applications will become easy.
     7) it will help represent the world around us easily.
-Task1: shows how OOPs will help us organize and represent real life entities in code
-    write a java program to store below information for 5 students
-    1)name 2)id 3)age 4)grade 5)weight
+
 
 
