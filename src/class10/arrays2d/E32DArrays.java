@@ -14,12 +14,14 @@ public class E32DArrays {
         }
 
         System.out.println();
+
         array1 = matrix[1];
         for (int i = 0; i <array1.length; i++){
             System.out.print(array1[i] + " ");
         }
 
         System.out.println();
+
         array1 = matrix[2];
         for (int i = 0; i <array1.length; i++) {
             System.out.print(array1[i] + " ");
