@@ -1,8 +1,9 @@
 package class15.method.variables;
 
 public class E3Variables {
-    static int age;         // instance variable w/o initialization
+     int age;               // instance variable w/o initialization
     String color = "Black"; // instance variable -> initialization
+    static String schoolName;        // static variable
 
     public static void main(String[] args) {
         double weight = 30;  // local variable -> mandatory to initialize to use it

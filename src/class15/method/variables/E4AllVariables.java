@@ -2,7 +2,7 @@ package class15.method.variables;
 
 public class E4AllVariables {
     String name;        // instance
-    static int age = 20;   // instance
+    static int age = 20;   // static
     final static double noOfMonth = 12;
 
     void print() {

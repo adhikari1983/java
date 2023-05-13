@@ -8,34 +8,34 @@ Methods:
     WHY WE SHOULD USE METHODS ?
         1) Code re-usability
         2) Organize the code
-        3) changing code becomes easier.
+        3) Changing code becomes easier.
 
 how to create method in java?
     1. Name of the method with/without  A. -> (types of access modifier) = public, private, protected, default
-                                        B. -> static
+                                        B. -> (types of non-access modifier) = final, static, abstract, transient, volatile
 
     2. Methods in java,  have return types(output of a method).
-      e.g. -> void,String int char etc.
+      e.g. -> void, String, int, char etc.
 
     3. They can also take parameters(input).
       e.g. -> parameters can of primitive or/and non-primitive.
 
-    4. The body of the method can contain any logic.
+    4. And finally, the body of the method can contain any logic.
        e.g. -> like arrays, loops , if conditions, switch.
 
+method signature -> [methodName + (parameter)]
 =====================================================================
 
-Types of variables w.r.t scope(coverage, reach,the visibility and accessibility)
-    There are 3-types of variables with respect to scope. local, instance and
-    static variables.
+Types of variables w.r.t scope(coverage, reach,the visibility and accessibility) & its usage.  -> (Scope && Usage)
+    There are 3-types of variables with respect to Scope && Usage. Local, Instance and Static variables.
 
 1. Local variables:
     Local variables are created inside the block of codes they can only be accessed only within that block.
-    e.g. all the variables that we create inside
-       -> methods, if statements, switch case statements, loops etc.
+    e.g. all the variables that we create inside methods :
+       ->  if statements, switch case statements, loops etc.
 Upside:
-    1) Local variables stay shorter in the memory, the moment that block
-       of code is done executing, memory is freed and is available to
+    1) Local variables stay shorter in the memory, the moment, that block
+       of code is done executing, memory space gets free and is available to
        be re-used.
     2) We can re-use the same name for other variables in other blocks of code.
 Downside:
@@ -51,7 +51,7 @@ Upside:
     1) Instance variables can be used without initializing.
     2) Instance variables can be shared between all instance methods of a class.
 Downside:
-    1)They tend to occupy the memory for longer as compared to local variables.
+    1) They tend to occupy the memory for longer as compared to local variables.
     2) They are hard to debug.
 
 3. Static variables:
@@ -78,3 +78,4 @@ when we should use instance variables ?
 when we should use static variables ?
     1) when we want to share something globally in all the classes, methods, and  blocks of code.
     2) Mostly used to create constants like no of months, no of days, value of PI, value of Gravity etc.
+

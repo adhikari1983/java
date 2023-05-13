@@ -1,21 +1,24 @@
 package class17.constructor;
 
 public class Dog {
-    String name;
-    String color;
-    String breed;
-    int age;
+    private String name;
+    private String color;
+    private int age;
+    public static String breed = "Mutt";
 
-
-    public Dog(String name, String color, String breed, int age) {
+/*
+QUESTION: So we don't initialize ->public static String dogBreed = "Mutt"; <- this in the constructor ?
+          That's correct. It is not necessary to initialize the dogBreed variable in the constructor
+          since it is a static variable and is not tied to a specific instance of the Dog class.
+ */
+    public Dog(String name, String color, int age) {
         this.name = name;
         this.color = color;
-        this.breed = breed;
         this.age = age;
     }
 
     void printInfo() {
-        System.out.println(name + " " + color + " " + breed + " " + age);
+        System.out.println(breed + " " + name + " " + color + " " + age);
     }
 
     public static void main(String[] args) {
@@ -63,11 +66,11 @@ public class Dog {
             new Dog()
         */
 
-        Dog dog1 = new Dog("Jack", "Black", "American", 6);
-        Dog dog2 = new Dog("shaggy", "white", "Huskey", 8);
-        Dog dog3 = new Dog("Fluffy", "Black", "British", 7);
-        Dog dog4 = new Dog("Pop", "Brown", "Asian", 6);
-        Dog dog5 = new Dog("Henry", "Grey", "German", 6);
+        Dog dog1 = new Dog("Jack", "Black",  6);
+        Dog dog2 = new Dog("shaggy", "white",  8);
+        Dog dog3 = new Dog("Fluffy", "Black", 7);
+        Dog dog4 = new Dog("Pop", "Brown",  6);
+        Dog dog5 = new Dog("Henry", "Grey", 6);
 
         dog1.printInfo();
         dog2.printInfo();

@@ -7,26 +7,27 @@ Methods/functions/behaviours:
 Why we should learn about methods:
     1) Code re-usability
     2) Organize the code
-    3) changing code becomes easier.
+    3) Changing code becomes easier.
 
 Syntax
     access-modifier return-type method-name(parameter-list) {
         // method body
     }
-Access Modifier: The access modifier determines the accessibility of the method.
+
+ 1. Access Modifier: The access modifier determines the accessibility of the method.
                  Java has four access modifiers: public, protected, private, and default (no access modifier specified).
 
-Return Type: The return type specifies the data type of the value that the method returns.
+2. Return Type: The return type specifies the data type of the value that the method returns.
              If the method does not return a value, its return type is void.
 
-Method Name: The method name is an identifier that is used to call the method.
+3. Method Name: The method name is an identifier that is used to call the method.
              It should be a meaningful name that describes the purpose of the method.
 
-Parameter List: The parameter list specifies the data type and name of each parameter
+4. Parameter List: The parameter list specifies the data type and name of each parameter
                 that the method accepts. Parameters are optional and a method can have zero or more parameters.
                 The value passed for that method when the method is invoked is call ARGUMENT.
 
-Method Body: The method body contains the statements that are executed when the method is called.
+5. Method Body: The method body contains the statements that are executed when the method is called.
              It can include any valid Java code, such as variable declarations, control statements,
              and method calls.
 

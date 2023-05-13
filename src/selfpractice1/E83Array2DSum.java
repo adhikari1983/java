@@ -1,3 +1,5 @@
+package selfpractice1;
+
 public class E83Array2DSum {
     public static void main(String[] args) {
         int[][] a = {
