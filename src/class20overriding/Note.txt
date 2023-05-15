@@ -1,0 +1,23 @@
+Method overloading:
+    1) Can we overload private methods?
+    -> Yes
+    2) Can we Overload the static methods?
+    -> Yes
+    3) Can we overload the main method?
+    -> Yes
+    4) Can we overload a method by changing its return type?
+    -> No
+===============================================================
+
+Method Overriding:
+    it's when a sub-class has the exact same method as parent method but a different
+    implementation.
+What are the benefits of Method Overriding.
+    1) Flexibility (if you don't like something from the parent class you can override it).
+    2) Cleaner code
+Rules:
+    1) If we want to override a method in the child class return type,method name
+       and parameters they must be same.
+    2) Private methods can't be overridden.
+    3) We can't override constructors.
+    4) Static methods
