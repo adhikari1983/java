@@ -1,4 +1,4 @@
-package selfpractice1;
+package selfpractice1.misc;
 
 public class E83Array2DSum {
     public static void main(String[] args) {

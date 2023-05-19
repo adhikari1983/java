@@ -1,4 +1,4 @@
-package selfpractice1;
+package selfpractice1.misc;
 import java.util.Scanner;
 
 public class MonthsByNumber {
