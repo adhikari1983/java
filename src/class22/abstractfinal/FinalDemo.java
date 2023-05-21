@@ -1,4 +1,4 @@
-package class22;
+package class22.abstractfinal;
 
 public class FinalDemo {
     final String SSN;

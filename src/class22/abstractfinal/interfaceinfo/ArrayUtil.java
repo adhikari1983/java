@@ -1,4 +1,4 @@
-package class22.interfaceinfo;
+package class22.abstractfinal.interfaceinfo;
 
 public interface ArrayUtil {
 

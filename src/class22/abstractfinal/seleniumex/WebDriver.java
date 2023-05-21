@@ -1,4 +1,4 @@
-package class22.seleniumex;
+package class22.abstractfinal.seleniumex;
 
 public abstract class WebDriver {
     abstract void openBrowser();

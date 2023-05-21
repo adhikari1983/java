@@ -1,4 +1,4 @@
-package class22;
+package class22.abstractfinal;
 
 abstract class Animal {
     private String name;

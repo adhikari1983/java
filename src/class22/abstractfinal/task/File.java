@@ -6,7 +6,7 @@ Create 3 subclasses:
 JavaFile, WordFile, PdfFile that will provide specific implementation of open behaviour:
 Example: to open .java file we need notepad++ or sublime text, to open .doc file we need Microsoft word to be installed etc.
  */
-package class22.task;
+package class22.abstractfinal.task;
 
 public abstract class File {
     private String name;

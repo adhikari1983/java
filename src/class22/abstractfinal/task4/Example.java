@@ -1,4 +1,4 @@
-package class22.task4;
+package class22.abstractfinal.task4;
 
 public class Example {
 
