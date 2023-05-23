@@ -1,4 +1,4 @@
-package class23.moveable;
+package class23.encapllcollectionIntro.moveable;
 
 public interface MoveAble {// interface are very lightWeight component
     /** public static final int age; */

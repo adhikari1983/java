@@ -1,4 +1,4 @@
-package class23.encapsulation;
+package class23.encapllcollectionIntro.encapsulation;
 
 public class BankAccount {
 

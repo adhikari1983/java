@@ -1,4 +1,4 @@
-package class23.moveable;
+package class23.encapllcollectionIntro.moveable;
 
 public class MoveAbleTester {
     public static void main(String[] args) {

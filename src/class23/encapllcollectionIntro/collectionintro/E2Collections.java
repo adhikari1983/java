@@ -1,4 +1,4 @@
-package class23.collectionintro;
+package class23.encapllcollectionIntro.collectionintro;
 
 import java.util.ArrayList;
 

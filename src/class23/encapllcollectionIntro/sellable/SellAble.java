@@ -1,4 +1,4 @@
-package class23.sellable;
+package class23.encapllcollectionIntro.sellable;
 
 public interface SellAble {
    /** private access modifier not allowed

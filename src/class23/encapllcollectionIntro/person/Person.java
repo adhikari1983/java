@@ -1,4 +1,4 @@
-package class23.person;
+package class23.encapllcollectionIntro.person;
 
 public interface Person {
     void eat();

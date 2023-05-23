@@ -4,7 +4,7 @@ openBrowser(), closeBrowser(), maximizeWindow(), findElement().
 Create 2 classes that implements WebDriver interface: ChromeDriver and FirefoxDriver.
  */
 
-package class23.task1;
+package class23.encapllcollectionIntro.task1;
 
 public interface WebDriver {
     void openBrowser();
