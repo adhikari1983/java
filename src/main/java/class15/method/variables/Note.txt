@@ -1,0 +1,94 @@
+Methods:
+    In Java, a method is a block of code or a collection of statements that
+    perform a specific task. It is designed to perform a particular function or
+    piece of logic within a program. We can create a method and then call it
+    multiple times from different parts of the program rather than repeating the
+    same block of code in multiple places.
+
+    WHY WE SHOULD USE METHODS ?
+        1) Code re-usability
+        2) Organize the code
+        3) Changing code becomes easier.
+
+how to create method in java?
+    1. Name of the method with/without  A. -> (types of access modifier) = public, private, protected, default
+                                        B. -> (types of non-access modifier) = final, static, abstract, transient, volatile
+
+    2. Methods in java,  have return types(output of a method).
+      e.g. -> void, String, int, char etc.
+
+    3. They can also take parameters(input).
+      e.g. -> parameters can of primitive or/and non-primitive.
+
+    4. And finally, the body of the method can contain any logic.
+       e.g. -> like arrays, loops , if conditions, switch.
+
+method signature -> [methodName + (parameter)]
+=====================================================================
+Variable are used to store and manipulate the data in the program.
+
+Types of variables w.r.t scope(coverage, reach,the visibility and accessibility) & its usage.  -> (Scope && Usage)
+    There are 3-types of variables with respect to Scope && Usage. Local, Instance and Static variables.
+
+1. Local variables:
+    - Local variables are created inside the block of codes they can only be accessed only within that block. /**OR**/
+    - Local variables are declared within a method, constructor, or block and are accessible only within their
+    respective scope.
+    e.g. all the variables that we create inside methods :
+       ->  if statements, switch case statements, loops etc.
+    - They must be initialized before use.
+    - Local variables do not have default values and require explicit initialization.
+    - Local variables are not accessible from other methods or blocks.
+Upside:
+    1) Local variables stay shorter in the memory, the moment, that block
+       of code is done executing, memory space gets free and is available to
+       be re-used.
+    2) We can re-use the same name for other variables in other blocks of code.
+Downside:
+    1) They have limited visibility. They can't be used outside the block other than in which
+    they are created.
+    2) Initialization is mandatory for local variables, and failure to do so
+    results in a compilation error.
+
+2. Instance variables (Non-static variable || Member variable):
+    - Instance variables are created inside a class, but outside any method, constructor, or block.
+    - They are associated with an instance of the class and have separate values for each instance.
+    - Instance variables are initialized with default values if not explicitly initialized.
+    - They can be accessed and modified by methods within the same class and by instances of the class.
+Upside:
+    1) Instance variables can be used without initializing.
+    2) Instance variables can be shared in between all instance methods of a class.
+Downside:
+    1) They tend to occupy the memory for longer as compared to local variables.
+    2) They are hard to debug.
+
+3. Static variables (Class variables):
+    - All the instance variables with static keyword within a class but outside any method, constructor, or block
+      are called static variables.
+    - They are associated with the class itself rather than instances of the class.
+    - Class variables have a single shared value across all instances of the class.
+    - They are initialized with default values if not explicitly initialized.
+    - Class variables can be accessed and modified by methods within the same class and by instances of the class.
+Upside:
+    1) They can be shared across all the instances of static methods and
+    the instances of a class.
+    2) Only one memory location is reserved for static variables even though we
+    create 1 million objects of that class.
+downSide:
+    1) They code can be hard to debug if we don't use the final keyword.
+    2) If value is changed anywhere in the code that gets changed for the complete
+    application.
+
+
+when we should use local variables ?
+    Always when ever possible.
+
+when we should use instance variables ?
+    1) If we have to share something in more than 1 instance methods.
+    2) When we are planning to create multiple objects of a class and these objects
+    can have different values for different objects we should go with instance variables.
+
+when we should use static variables ?
+    1) when we want to share something globally in all the classes, methods, and  blocks of code.
+    2) Mostly used to create constants like no of months, no of days, value of PI, value of Gravity etc.
+
