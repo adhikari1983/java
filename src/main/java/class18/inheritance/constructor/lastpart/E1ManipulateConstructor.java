@@ -11,7 +11,7 @@ public class E1ManipulateConstructor {
         //extract java and convert it to upper case
         char[] chars2 = {'t', 'h', 'e', 'J', 'a' , 'v', 'a'};
 
-       // it takes3 elements it doesnt go by the index number??
+       // it takes3 elements it doesn't go by the index number??
         //start at offset 3, and take 4 characters
         /*
         the offset parameter specifies the starting position of the substring in the chars2 array, and it is zero-based.

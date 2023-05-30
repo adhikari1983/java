@@ -22,6 +22,10 @@ public class E4ConfigFiles {
         Properties properties = new Properties();
         properties.load(fileInputStream);
 
+        //A. reading the properties from Config.properties files
+        //another way => B. is here -> class26/E5ConfigReader.java:6
         System.out.println(properties.getProperty("userName"));
+        System.out.println(properties.getProperty("password"));
+        System.out.println(properties.getProperty("URL"));
     }
 }

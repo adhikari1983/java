@@ -1,5 +1,8 @@
 package class20overriding.mainoverloading;
 
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 public class MainOverloading {
     public static void main(String[] args) {
         main();
@@ -13,4 +16,5 @@ public class MainOverloading {
     public static void main(int number) {
         System.out.println("Parameterized main method");
     }
+    Workbook workbook = new XSSFWorkbook();
 }
