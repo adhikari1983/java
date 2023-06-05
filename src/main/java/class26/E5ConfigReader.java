@@ -19,7 +19,7 @@ public class E5ConfigReader {
         //B. reading the properties from Config.properties files
         //another way => A. is here -> class26/E4ConfigFiles.java:11
         System.out.println(ConfigReader.getProperty("userName"));
-        System.out.println(ConfigReader.getProperty("password"));
+        System.out.println(ConfigReader.getProperty("userPassword"));
         System.out.println(ConfigReader.getProperty("URL"));
     }
 }

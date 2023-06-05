@@ -16,7 +16,7 @@ public class E4ExcelReader {
 
         FileInputStream fis = new FileInputStream(Constants.EXCEL_FILE_PATH);
         //piece of software to read the EXCEL file, importing from Libraries with the help of pom.xml dependencies
-        //e.g. like Properties properties = new Properties();
+        //e.g. like Properties property = new Properties();
         // that special call which knows how to read the data from Excel files
         XSSFWorkbook xssfWorkbook = new XSSFWorkbook(fis);
         Sheet sheet = xssfWorkbook.getSheet("Sheet1");
@@ -32,15 +32,16 @@ public class E4ExcelReader {
             }
             System.out.println();
         }
-        Row row = sheet.getRow(0);
-/** xls doesn't have int value when  XSSFWorkbook designed, it always return the double value*/
+
+/** xls doesn't have int value when  XSSFWorkbook designed, it always returns the double value on o/p console*/
         /* initial idea of reading from xls sheet
+        Row row = sheet.getRow(0);
         System.out.println(row.getCell(0 )+ " ");
         System.out.println(row.getCell(1)+ " ");
         System.out.println(row.getCell(2)+ " ");
         System.out.println(row.getCell(3)+ " ");
         System.out.println(row.getCell(4)+ " ");*/
-        //in excel columns are called -> "cell"
+        //in Excel columns are called -> "cell"
 
 
     }
