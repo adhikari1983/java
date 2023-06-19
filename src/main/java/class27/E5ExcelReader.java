@@ -33,10 +33,7 @@ public class E5ExcelReader {
                 rowMap.put(key,value);
             }
             excelData.add(rowMap);
-
-
         }
-
         System.out.println(excelData);
     }
 }

@@ -1,5 +1,5 @@
 Framework:
-    A framework is a pre-written code that allows developers to build applications
+    CD framework is a pre-written code that allows developers to build applications
     more easily and quickly.
 
 Sets:

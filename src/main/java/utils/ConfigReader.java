@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigReader {
-    public static Properties getProperties(String path) throws IOException {
+    public static Properties getProperties(String path)  {
         FileInputStream fileInputStream = null;
         Properties properties = null;
         try {
@@ -27,11 +27,10 @@ public class ConfigReader {
         return properties;
     }
 
-    public static String getProperty(String key) throws IOException {
+    public static String getProperty(String key) {
         Properties properties = getProperties(Constants.CONFIG_READER_PATH);
         String value = properties.getProperty(key);
         return value;
-
     }
 }
 

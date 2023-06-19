@@ -13,12 +13,16 @@ public class E1Maps {
         drinks.put("Coffee", 2.0);
         drinks.put("Tea", 2.0);
 
-        //with keys
+
+        /*//with keys
         drinks.keySet().removeIf(x ->x.contains("i"));
         //with values
         drinks.values().removeIf(x ->x>3);
 
-
-
-    }
+*/
+/*
+        drinks.add
+drinks.clear();
+        System.out.println(drinks);
+  */  }
 }

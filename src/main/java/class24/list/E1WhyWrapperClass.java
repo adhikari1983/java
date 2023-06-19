@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class E1WhyWrapperClass {
     public static void main(String[] args) {
         ArrayList arrayList1 = new ArrayList();
-    /** So, by default invisibly there will be GODFATHER CLASS "OBJECT" in <Object>, that why it adds anything
+    /** So, by default invisibly there is a GODFATHER CLASS "OBJECT" in <Object>, that why it adds anything
               behind the scene it looks like
           ArrayList arrayList = new ArrayList();
           ArrayList<Object> arrayList = new ArrayList<Object>();  -> just for concept, very bad as implementation

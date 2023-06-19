@@ -5,7 +5,7 @@ HashMap :
       The Best overall performance, but it does not maintain the insertion order.
 
 LinkedHashMap:
-      It maintains the insertion order. A little slow  then the HashMap.
+      It maintains the insertion order. CD little slow  then the HashMap.
 
 TreeMap:
      It sorts the data based on keys. It is slower than HashMap & LinkedHashMap.

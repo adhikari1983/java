@@ -38,9 +38,10 @@ public class E2ConfigReader {
 
     /**
      this method name ->  getProperty(String key) &  properties.getProperty(key) are not same
-                  DON'T GET CONFUSE ON THOSE TWO.
+                  DON'T GET CONFUSE ON THOSE TWO, BUT HAS TO NAME AS SAME THOUGH.
      */
    //explanation@dEnd -> accessProperty(String key) Why it has to same name ->getProperty(String key)  {
+
     public static String getProperty(String key) throws IOException {
         FileInputStream fis = new FileInputStream(Constants.CONFIG_READER_PATH);
         Properties properties = new Properties();

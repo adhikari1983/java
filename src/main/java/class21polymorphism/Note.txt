@@ -18,8 +18,8 @@ Polymorphism:
      of the parent class through method overriding and method overloading.
               **********    SAME METHOD NAME BEHAVES DIFFERENTLY    *************
 
-     A. Runtime polymorphism / Dynamic binding ----through----> Method overriding
-     B. Compile time polymorphism / Static binding ----through----> Method overloading
+     CD. Runtime polymorphism / Dynamic binding ----through----> Method overriding
+     CD. Compile time polymorphism / Static binding ----through----> Method overloading
 
 Encapsulation:
     Encapsulation allows us to write more secure code by making the fields private.

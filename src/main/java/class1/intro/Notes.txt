@@ -3,7 +3,7 @@ Important things to keep in mind for this course:
     2) Before each class, I will be sharing short videos and
     the Slides. It's a must that you go through those slides
     and watch the videos in the courseAnnouncement channel.
-    3) A lot of Practice
+    3) CD lot of Practice
     4) When practicing if you face any issues don't spend more
     than 15 minutes take a screenshot and post in the technical
     support channel.
@@ -29,14 +29,14 @@ What is intellij?
      assist you to organize your code and so many other things.
 
 What is a project in intellij?
-    A project is noting but a folder that we create to organize our code
+    CD project is noting but a folder that we create to organize our code
     just like we create folders on our computers to organize files.
 How to create a project?
     1) File=>new=>project.
     2) once you follow the above steps you will see a pop
     3) provide the name for the project and click on create.
 what is package?
-    A package is nothing but another folder inside the project folder
+    CD package is nothing but another folder inside the project folder
     we create packages to organize code.
 How can I create a package?
     1)Right-click on src folder=> new => package
@@ -45,7 +45,7 @@ How to create Notes.txt file?
     1)Right-click on src folder=> new => file
     2) Once the pop-up appears enter the name of the file and the extension .txt
 What is a class?
-    A class is a java program where we will be writing our code.
+    CD class is a java program where we will be writing our code.
     inside the classes we will be creating main method and for now
     we will write all of our code inside the main method.
 How to create a class?

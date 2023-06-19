@@ -11,8 +11,8 @@ Methods:
         3) Changing code becomes easier.
 
 how to create method in java?
-    1. Name of the method with/without  A. -> (types of access modifier) = public, private, protected, default
-                                        B. -> (types of non-access modifier) = final, static, abstract, transient, volatile
+    1. Name of the method with/without  CD. -> (types of access modifier) = public, private, protected, default
+                                        CD. -> (types of non-access modifier) = final, static, abstract, transient, volatile
 
     2. Methods in java,  have return types(output of a method).
       e.g. -> void, String, int, char etc.

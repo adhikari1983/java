@@ -2,9 +2,10 @@ methods from the arrayList class
 do not use Iterators use removeif();
 
 ArrayList:
-    if in your code 80% of the times you use get method 20% add(index,element), remove.
+    if in your code 80% of the times you use get method,
+                    20% add(index,element), remove.
 LinkedList
-    if 70-80% you use remove method or adding the data in-between you should use linkedlist
+    if 70-80% you use remove method or adding the data in-between you should use linkedList
 
 
-    A framework is a pre-written code that allows developers to build applications more easily and quickly.
+    CD framework is a pre-written code that allows developers to build applications more easily and quickly.

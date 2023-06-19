@@ -28,5 +28,23 @@ public class E3BoxingUnboxing {
         int numbers3 = numbers.get(0);
 
 
+        //in the operation like below -> viiiip
+        Double totalPurchase = 0.0;
+        Double price = 21.99;
+        Integer quantity = 10;
+
+        // coverts Integer(quantity) -> Double(price) doing Auto-Boxing
+        // How ?
+        // on the right side it declared a subtotal variable to store the double, and that is enough
+        // to store Integer value as well after the multiplication operation
+        /**  & it is only possible in such operation only otherwise, it has to be  convert like  this
+         Integer num1 = 10;
+         Double num2 = num1.doubleValue();
+         */
+        Double subtotal = price * quantity.doubleValue(); // here is the concept
+        totalPurchase += subtotal;
+
+        //Integer totalPurchase1 = 0;
+        //Integer subtotal1 = price*quantity.doubleValue(); -> not possible, java doesn't allow
     }
 }

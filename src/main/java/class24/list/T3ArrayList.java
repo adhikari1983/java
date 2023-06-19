@@ -9,6 +9,8 @@ public class T3ArrayList {
         drinks.add("pepsi");
         drinks.add("fanta");
         drinks.add("sprite");
+        drinks.add("sprite");
+        drinks.add("sprite");
         drinks.add("gingerAle");
         drinks.add("milk");
         drinks.add("cccccc");
